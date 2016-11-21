@@ -16,11 +16,7 @@ import smach_ros
 
 import rostopic
 
-
-
 TAU = math.pi * 2   # one tau is one turn. simply as that.
-
-
 
 
 class PromptState(smach.State):

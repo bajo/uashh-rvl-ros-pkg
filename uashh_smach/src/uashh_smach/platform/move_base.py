@@ -173,7 +173,6 @@ class WaitForGoalState(WaitForMsgState):
 
 
 
-
 class HasMovedState(State):
     """Return whether the robot moved beyond a given minimum distance in a given frame
     since the last exceeding check.
